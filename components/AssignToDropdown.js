@@ -61,13 +61,13 @@ const AssignToDropdown = () => (
       <img src="https://lh3.googleusercontent.com/a-/AOh14GhhB2_pbDN0psUf7FBOdBniJ8cimb05oi4Jfbk=s96-c" style={avatarStyle} />
       <span style={nameStyle}>CI1 Hiver</span>
     </Option>
-    <Option value="ci2" style={optionStyle}>
-      <img src="https://lh3.googleusercontent.com/a-/AOh14GhhB2_pbDN0psUf7FBOdBniJ8cimb05oi4Jfbk=s96-c" style={avatarStyle} />
-      <span style={nameStyle}>CI2 Hiver</span>
+    <Option value="Charlie Chaplin" style={optionStyle}>
+      <img src="https://lh3.googleusercontent.com/a/AATXAJwCes3y8ZAHNhBS7J9ftBT_X_PzVdBSxyh3_mlN=s96-c" style={avatarStyle} />
+      <span style={nameStyle}>Charlie Chaplin</span>
     </Option>
-    <Option value="ci3" style={optionStyle}>
-      <img src="https://lh3.googleusercontent.com/a-/AOh14GhhB2_pbDN0psUf7FBOdBniJ8cimb05oi4Jfbk=s96-c" style={avatarStyle} />
-      <span style={nameStyle}>CI3 Hiver</span>
+    <Option value="snow" style={optionStyle}>
+      <img src="https://lh3.googleusercontent.com/a/AATXAJz_vJ85-QezW9pzfqQHL7cZEK-HaQyaJsRfwfbp=s96-c" style={avatarStyle} />
+      <span style={nameStyle}>Snow, Jon</span>
     </Option>
   </Select>
 );
