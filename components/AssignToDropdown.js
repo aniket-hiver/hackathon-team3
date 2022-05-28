@@ -57,12 +57,18 @@ const AssignToDropdown = () => (
       (option?.children).toLowerCase().includes(input.toLowerCase())
     }
   >
-    <Option value="jack" style={optionStyle}>
+    <Option value="ci1" style={optionStyle}>
       <img src="https://lh3.googleusercontent.com/a-/AOh14GhhB2_pbDN0psUf7FBOdBniJ8cimb05oi4Jfbk=s96-c" style={avatarStyle} />
       <span style={nameStyle}>CI1 Hiver</span>
     </Option>
-    <Option value="lucy">Lucy</Option>
-    <Option value="tom">Tom</Option>
+    <Option value="ci2" style={optionStyle}>
+      <img src="https://lh3.googleusercontent.com/a-/AOh14GhhB2_pbDN0psUf7FBOdBniJ8cimb05oi4Jfbk=s96-c" style={avatarStyle} />
+      <span style={nameStyle}>CI2 Hiver</span>
+    </Option>
+    <Option value="ci3" style={optionStyle}>
+      <img src="https://lh3.googleusercontent.com/a-/AOh14GhhB2_pbDN0psUf7FBOdBniJ8cimb05oi4Jfbk=s96-c" style={avatarStyle} />
+      <span style={nameStyle}>CI3 Hiver</span>
+    </Option>
   </Select>
 );
 
